@@ -59,11 +59,6 @@ import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
 import { useRef } from 'react'
 
-export const meta: Metadata = {
-  title: 'Laptop & Printer Repairing Shop in Satara',
-  description: 'Best Laptop Repairing Shop In Satara',
-}
-
 const Home: NextPage = () => {
   const contactRef = useRef<HTMLDivElement | null>(null);
   return (
